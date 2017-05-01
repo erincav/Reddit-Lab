@@ -1,0 +1,147 @@
+/*html{
+  margin:-45px 0;
+}*/
+.header{
+  background-color:rgba(13, 13, 13, 0.90);
+  height:40px;
+  width:100%;
+  position:fixed;
+  box-shadow: 2px 2px 4px 0 #0d0d0d;
+  z-index:9999;
+  overflow:hidden;
+}
+
+h1{
+  font-size:200%;
+  margin:0 auto;
+  font-family: 'Nothing You Could Do', cursive;
+    text-shadow: 2px 2px #000000;
+    color:white;
+    padding:1%;
+    float:left;
+}
+
+placeholder{
+color:  #f2f2f2;
+}
+
+#search{
+  display:inline-block;
+  float:right;
+  padding:1% 3% 1% 0%;
+  font-family: 'Nothing You Could Do', cursive;
+    text-shadow: 2px 2px #000000;
+}
+
+button{
+  background-color:white;
+  box-shadow: 2px 2px 4px 0 #0d0d0d;
+  font-family:'Nothing You Could Do', cursive;
+}
+
+.banner{
+  background-color:#d9d9d9;
+  height:300px;
+  width:100%;
+  position:fixed;
+  overflow:hide;
+  /*z-index:-500;*/
+}
+#body {
+  background-color: #d9d9d9;
+}
+/*Main Wrap*/
+.mainWrap{
+  position:relative;
+  z-index:999;
+  top:450px;
+  background-color:#d9d9d9;
+}
+/*Beginning of picDIv*/
+
+h3{
+  font-size: 100%;
+  font-weight: bold;
+  text-align:center;
+}
+.picDiv{
+  background-color:#d9d9d9;
+  width: 95%;
+  margin: 3em auto;
+  position:relative;
+}
+.masonry { /* Masonry container */
+    column-count: 3;
+    margin: 1.5em 0;
+    padding: 0.5em 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+
+.item { /* Masonry bricks or child elements */
+    background-color: #fff;
+    display: inline-block;
+    margin: 0 0 1em;
+    padding: 1.5em;
+    width: 100%;
+    text-align:center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 2px 2px 4px 0 #ccc;
+    overflow:hidden;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #d9d9d9;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+
+  .item:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+
+img{
+  height: auto;
+  text-align: center;
+  width: 110%;
+}
+#masonryImg{
+  margin: -10px;
+}
+/*End picDIv*/
+
+.quoteDiv{
+  background-color:#d9d9d9;
+  height:auto;
+  width:100%;
+  padding:10% 15%;
+  font-family: 'Nothing You Could Do', cursive;
+  font-weight: bold;
+
+}
+
+h2{
+  text-align:center;
+  color:black;
+  margin: 0 auto;
+  font-size:175%;
+}
+
+footer{
+  background-color:black;
+  height:50px;
+  width:100%;
+  position:relative;
+  bottom:0;
+}
